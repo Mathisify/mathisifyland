@@ -1428,16 +1428,16 @@ section {
   color: #fff;
 }
 
-.contact .php-email-form {
+.contact .contactform {
   width: 100%;
   background: #fff;
 }
 
-.contact .php-email-form .form-group {
+.contact .contactform .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .validate {
+.contact .contactform .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -1445,7 +1445,7 @@ section {
   font-size: 13px;
 }
 
-.contact .php-email-form .error-message {
+.contact .contactform .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1454,11 +1454,11 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .contactform .error-message br + br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.contact .contactform .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1467,14 +1467,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .contactform .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .contactform .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1487,21 +1487,21 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .contactform input, .contact .contactform textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input {
+.contact .contactform input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.contact .contactform textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .contactform button[type="submit"] {
   background: #1acc8d;
   border: 0;
   padding: 10px 30px;
@@ -1510,7 +1510,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .contactform button[type="submit"]:hover {
   background: #34e5a6;
 }
 
