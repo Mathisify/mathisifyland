@@ -78,8 +78,8 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  left: 45px;
-  bottom: 45px;
+  left: 25px;
+  bottom: 25px;
   z-index: 99999;
 }
 
