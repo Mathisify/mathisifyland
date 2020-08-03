@@ -197,7 +197,18 @@ h1, h2, h3, h4, h5, h6 {
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
+.nav-menu .get-started a {
+  background: #3498db;
+  color: #fff;
+  border-radius: 50px;
+  margin: 0 0 0 30px;
+  padding: 10px 25px;
+}
 
+.nav-menu .get-started a:hover {
+  background: #57aae1;
+  color: #fff;
+}
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
   visibility: visible;
   width: 50px;
