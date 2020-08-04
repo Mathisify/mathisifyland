@@ -210,8 +210,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
+  opacity: 1;
+  top: 100%;
   visibility: visible;
-  width: 50px;
+  width: calc(100% - 25px);
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -223,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: absolute;
   left: 25px;
-  top: calc(100% - 30px);
+  top: calc(100% + 30px);
   z-index: 99;
   opacity: 0;
   visibility: hidden;
@@ -237,7 +239,6 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
   top: 100%;
   visibility: visible;
-  border-radius: 5px;
 }
 
 .nav-menu .drop-down li {
