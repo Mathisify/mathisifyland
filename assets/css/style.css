@@ -266,7 +266,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu .drop-down .drop-down ul {
   top: 0;
-  left: calc(100% - 30px);
+  left: calc(100% - 25px);
 }
 
 .nav-menu .drop-down .drop-down:hover > ul {
