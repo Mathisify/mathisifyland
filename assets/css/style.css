@@ -779,7 +779,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  background: url("../img/globe.svg") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
