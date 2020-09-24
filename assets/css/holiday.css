@@ -39,7 +39,7 @@ body {
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
-    border: 6px solid #1acc8d;
+    border: 6px solid #4D8C2D;
     border-top-color: #d2f9eb;
     border-radius: 50%;
     width: 60px;
@@ -112,7 +112,7 @@ body {
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background: rgba(1, 4, 136, 0.9);
+    background: #990027;
   }
   
   #header.header-transparent {
@@ -120,7 +120,7 @@ body {
   }
   
   #header.header-scrolled {
-    background: rgba(1, 4, 136, 0.9);
+    background: #4D8C2D;
     height: 60px;
   }
   
@@ -186,13 +186,13 @@ body {
     height: 2px;
     bottom: 3px;
     left: 25px;
-    background-color: #1acc8d;
+    background-color: #4D8C2D;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
   }
   .nav-menu .get-started a {
-    background: #3498db;
+    background: #4D8C2D;
     color: #fff;
     border-radius: 50px;
     margin: 0 0 0 30px;
@@ -411,7 +411,7 @@ body {
   
   #hero:before {
     content: "";
-    background: #4D8C2D;
+    background: #B3001B;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -429,7 +429,7 @@ body {
   
   #hero h1 span {
     color: #fff;
-    border-bottom: 4px solid #B3000C;
+    border-bottom: 4px solid #027600;
   }
   
   #hero h2 {
@@ -448,7 +448,7 @@ body {
     border-radius: 50px;
     transition: 0.5s;
     color: #fff;
-    background: #B3000C;
+    background: #027600;
   }
   
   #hero .btn-get-started:hover {
@@ -632,7 +632,7 @@ body {
     width: 120px;
     height: 1px;
     display: inline-block;
-    background: #1acc8d;
+    background: #4D8C2D;
     margin: 4px 10px;
   }
   
@@ -737,7 +737,7 @@ body {
   }
   
   .about .icon-box .icon i {
-    color: #1acc8d;
+    color: #4D8C2D;
     font-size: 32px;
   }
   
@@ -763,7 +763,7 @@ body {
   }
   
   .about .icon-box .title a:hover {
-    color: #1acc8d;
+    color: #4D8C2D;
   }
   
   .about .icon-box .description {
@@ -1545,7 +1545,7 @@ body {
     margin-bottom: 15px;
     background: #010246;
     color: #fff;
-    border-top: 4px solid #1acc8d;
+    border-top: 4px solid #4D8C2D;
     text-align: center;
     padding: 30px 20px;
   }
@@ -1580,7 +1580,7 @@ body {
   }
   
   #footer .footer-top .social-links a:hover {
-    background: #1acc8d;
+    background: #4D8C2D;
     color: #fff;
     text-decoration: none;
   }
@@ -1605,7 +1605,7 @@ body {
   
   #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #61ebba;
+    color: #4D8C2D;
     font-size: 18px;
     line-height: 1;
   }
@@ -1654,14 +1654,14 @@ body {
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #1acc8d;
+    background: #4D8C2D;
     color: #fff;
     transition: 0.3s;
     border-radius: 50px;
   }
   
   #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-    background: #149f6e;
+    background: #4D8C2D;
   }
   
   #footer .copyright {
