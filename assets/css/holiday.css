@@ -411,7 +411,7 @@ body {
   
   #hero:before {
     content: "";
-    background: #B3000C;
+    background: #65A047;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -429,7 +429,7 @@ body {
   
   #hero h1 span {
     color: #fff;
-    border-bottom: 4px solid #2A7111;
+    border-bottom: 4px solid #B3000C;
   }
   
   #hero h2 {
@@ -448,7 +448,7 @@ body {
     border-radius: 50px;
     transition: 0.5s;
     color: #fff;
-    background: #2A7111;
+    background: #B3000C;
   }
   
   #hero .btn-get-started:hover {
