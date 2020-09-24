@@ -40,7 +40,7 @@ body {
     top: calc(50% - 30px);
     left: calc(50% - 30px);
     border: 6px solid #4D8C2D;
-    border-top-color: #d2f9eb;
+    border-top-color: #B3001B;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -85,7 +85,7 @@ body {
     width: 55px;
     height: 55px;
     border-radius: 70px;
-    background: #2f7adc;
+    background: #027600;
     color: #fff;
     transition: all 0.4s;
   }
@@ -120,7 +120,7 @@ body {
   }
   
   #header.header-scrolled {
-    background: #4D8C2D;
+    background: #990027;
     height: 60px;
   }
   
@@ -608,7 +608,7 @@ body {
   }
   
   .section-bg {
-    background-color: #f5f5ff;
+    background-color: #BA002F;
   }
   
   .section-title {
@@ -643,7 +643,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    color: #010483;
+    color: #fff;
   }
   
   /*--------------------------------------------------------------
@@ -651,7 +651,7 @@ body {
   --------------------------------------------------------------*/
   .breadcrumbs {
     padding: 20px 0;
-    background-color: #fafaff;
+    background-color: #990027;
     min-height: 40px;
     margin-top: 80px;
   }
@@ -1337,7 +1337,7 @@ body {
     position: absolute;
     right: 0;
     left: 20px;
-    color: #34e5a6;
+    color: #027600;
   }
   
   .faq .faq-list .icon-show, .faq .faq-list .icon-close {
@@ -1345,6 +1345,7 @@ body {
     position: absolute;
     right: 0;
     top: 0;
+    color: #027600;
   }
   
   .faq .faq-list p {
@@ -1357,11 +1358,11 @@ body {
   }
   
   .faq .faq-list a.collapsed {
-    color: #343a40;
+    color: #027600;
   }
   
   .faq .faq-list a.collapsed:hover {
-    color: #1acc8d;
+    color: #027600;
   }
   
   .faq .faq-list a.collapsed .icon-show {
