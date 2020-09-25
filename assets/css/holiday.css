@@ -411,7 +411,7 @@ body {
   
   #hero:before {
     content: "";
-    background: #B3001B;
+    background: #BA002F;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -1211,13 +1211,6 @@ body {
     background: #990027;
   }
   
-  .pricing h4 {
-    font-size: 36px;
-    color: #1acc8d;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 20px;
-  }
   
   .pricing h4 sup {
     font-size: 20px;
@@ -1225,16 +1218,11 @@ body {
     left: -3px;
   }
   
-  .pricing h4 span {
-    color: #bababa;
-    font-size: 16px;
-    font-weight: 300;
-  }
   
   .pricing ul {
     padding: 0;
     list-style: none;
-    color: #fff;
+    color: #E5E5E5;
     text-align: center;
     line-height: 20px;
     font-size: 14px;
@@ -1244,16 +1232,7 @@ body {
     padding-bottom: 16px;
   }
   
-  .pricing ul i {
-    color: #1acc8d;
-    font-size: 18px;
-    padding-right: 4px;
-  }
-  
-  .pricing ul .na {
-    color: #ccc;
-    text-decoration: line-through;
-  }
+
   
   .pricing .btn-wrap {
     margin: 20px -20px -20px -20px;
@@ -1262,42 +1241,137 @@ body {
     text-align: center;
   }
   
-  .pricing .btn-buy {
-    background: #1acc8d;
-    display: inline-block;
-    padding: 8px 35px 10px 35px;
-    border-radius: 50px;
-    color: #fff;
-    transition: none;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    transition: 0.3s;
-  }
+
   
-  .pricing .btn-buy:hover {
-    background: #149f6e;
-  }
-  
-  .pricing .featured h3 {
-    color: #fff;
+  .pricing .featuredbox h3 {
+    padding: 20px;
     background: #027600;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
   }
+
   
-  .pricing .advanced {
-    width: 200px;
-    position: absolute;
-    top: 18px;
-    right: -68px;
-    transform: rotate(45deg);
-    z-index: 1;
-    font-size: 14px;
-    padding: 1px 0 3px 0;
-    background: #1acc8d;
-    color: #fff;
+  .pricing .featured-wrap {
+    margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #027600;
+    text-align: center;
   }
+
+
   
+  .partners {
+    background-color: #BA002F;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 200px;
+    position: relative; }
+    @media only screen and (max-width: 768px) {
+      .partners {
+        padding-bottom: 100px; } }
+    .partners-top {
+      width: 100%;
+      padding: 0 12vw;
+      display: flex;
+      margin: 0 auto;
+      z-index: 1; }
+      @media only screen and (max-width: 1200px) {
+        .partners-top {
+          max-width: 100%;
+          padding: 0 6vw; } }
+      @media only screen and (max-width: 992px) {
+        .partners-top {
+          margin-bottom: 20px; } }
+      @media only screen and (max-width: 768px) {
+        .partners-top {
+          flex-direction: column; } }
+      .partners-top-left {
+        width: 60%; }
+        @media only screen and (max-width: 768px) {
+          .partners-top-left {
+            width: auto; } }
+      .partners-top-right {
+        width: 40%;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column; }
+        @media only screen and (max-width: 768px) {
+          .partners-top-right {
+            width: auto;
+            align-items: flex-start;
+            padding-top: 30px; } }
+    .partners-list {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0 12vw;
+      margin-bottom: 20px;
+      z-index: 1; }
+      @media only screen and (max-width: 1200px) {
+        .partners-list {
+          max-width: 100%;
+          padding: 0 6vw; } }
+      @media only screen and (max-width: 992px) {
+        .partners-list h4 {
+          margin-top: 20px; } }
+      .partners-list ul {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        margin-right: -20px; }
+        .partners-list ul li {
+          width: 33.3%;
+          margin-bottom: 20px;
+          padding-right: 20px;
+          box-sizing: border-box;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          position: relative; }
+          .partners-list ul li:after {
+            position: absolute;
+            bottom: 99%;
+            right: 30px;
+            width: 60px;
+            height: 100px;
+            display: none;
+            animation: fadeIn 250ms ease-out;
+            z-index: -1; }
+          .partners-list ul li:hover:after {
+            display: block; }
+          @media only screen and (max-width: 992px) {
+            .partners-list ul li {
+              width: 50%; } }
+          .partners-list ul li a img {
+            width: 100%;
+            border-radius: 5px; }
+    
+    .partners .element {
+      position: absolute;
+      z-index: 0; }
+      @media only screen and (max-width: 768px) {
+        .partners .element-1 {
+          max-width: 400px; } }
+      @media only screen and (max-width: 576px) {
+        .partners .element-1 {
+          max-width: 300px; } }
+      .partners .element-2 {
+        top: 0;
+        width: 100%; }
+      .partners .element-3 {
+        bottom: 0;
+        width: 100%; }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
   /*--------------------------------------------------------------
   # F.A.Q
   --------------------------------------------------------------*/
@@ -1532,7 +1606,7 @@ body {
   # Footer
   --------------------------------------------------------------*/
   #footer {
-    background: #990027;
+    background: #BA002F;
     padding: 0 0 30px 0;
     color: #fff;
     font-size: 14px;
@@ -1544,9 +1618,9 @@ body {
   
   #footer .footer-top .footer-info {
     margin-bottom: 15px;
-    background: #B3001B;
+    background: #A8002B;
     color: #fff;
-    border-top: 4px solid #4D8C2D;
+    border-top: 4px solid #3E7224;
     text-align: center;
     padding: 30px 20px;
   }
@@ -1655,7 +1729,7 @@ body {
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #4D8C2D;
+    background: #3E7224;
     color: #fff;
     transition: 0.3s;
     border-radius: 50px;
@@ -1666,7 +1740,7 @@ body {
   }
   
   #footer .copyright {
-    border-top: 1px solid #010479;
+    border-top: 1px solid #3E7224;
     text-align: center;
     padding-top: 30px;
   }
