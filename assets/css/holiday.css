@@ -1200,6 +1200,10 @@ body {
     position: relative;
     overflow: hidden;
   }
+
+  #boxboi {
+    background: green;
+  }
   
   .pricing h3 {
     font-weight: 400;
