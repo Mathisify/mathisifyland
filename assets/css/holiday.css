@@ -758,7 +758,7 @@ body {
   }
   
   .about .icon-box .title a {
-    color: #343a40;
+    color: #24962c;
     transition: 0.3s;
   }
   
@@ -773,7 +773,7 @@ body {
   }
   
   .about .video-box {
-    background: url("../img/globe.svg") center center no-repeat;
+    background: url("../img/holidayabout.png") center center no-repeat;
     background-size: contain;
     min-height: 300px;
   }
@@ -825,7 +825,7 @@ body {
     border: 5px solid rgba(63, 67, 253, 0.7);
     top: -15%;
     left: -15%;
-    background: rgba(198, 16, 0, 0);
+    background: #fff;
   }
   
   .about .play-btn:hover::after {
