@@ -1461,12 +1461,12 @@ body {
   --------------------------------------------------------------*/
   .contact .info {
     width: 100%;
-    background: #fff;
+    background: #B30C25;
   }
   
   .contact .info i {
     font-size: 20px;
-    color: #3f43fd;
+    color: #027600;
     float: left;
     width: 44px;
     height: 44px;
@@ -1483,14 +1483,14 @@ body {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
-    color: #010483;
+    color: #fff;
   }
   
   .contact .info p {
     padding: 0 0 0 60px;
     margin-bottom: 0;
     font-size: 14px;
-    color: #0205a1;
+    color: #fff;
   }
   
   .contact .info .email, .contact .info .phone {
@@ -1498,13 +1498,13 @@ body {
   }
   
   .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-    background: #1acc8d;
+    background: #027600;
     color: #fff;
   }
   
   .contact .contactform {
     width: 100%;
-    background: #fff;
+    background: #B30C25;
   }
   
   .contact .contactform .form-group {
@@ -1535,7 +1535,7 @@ body {
   .contact .contactform .sent-message {
     display: none;
     color: #fff;
-    background: #18d26e;
+    background: #027600;
     text-align: center;
     padding: 15px;
     font-weight: 600;
@@ -1576,7 +1576,7 @@ body {
   }
   
   .contact .contactform button[type="submit"] {
-    background: #1acc8d;
+    background: #027600;
     border: 0;
     padding: 10px 30px;
     color: #fff;
