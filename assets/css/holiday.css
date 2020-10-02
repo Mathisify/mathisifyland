@@ -1648,7 +1648,7 @@ body {
   }
 
   .btn .btn-outline-info button[type="button"] {
-    background: #027600;
+    background-color: #027600;
     border: 0;
     padding: 10px 30px;
     color: #fff;
@@ -1657,7 +1657,7 @@ body {
   }
   
   .btn .btn-outline-info [type="button"]:hover {
-    background: #34e5a6;
+    background-color: #34e5a6;
   }
   
   @-webkit-keyframes animate-loading {
