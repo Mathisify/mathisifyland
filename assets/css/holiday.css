@@ -1646,6 +1646,19 @@ body {
   .contact .contactform button[type="submit"]:hover {
     background: #34e5a6;
   }
+
+  .btn .btn-outline-info button[type="button"] {
+    background: #027600;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  
+  .btn .btn-outline-info [type="button"]:hover {
+    background: #34e5a6;
+  }
   
   @-webkit-keyframes animate-loading {
     0% {
