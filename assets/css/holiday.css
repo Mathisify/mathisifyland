@@ -880,7 +880,7 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
-    background: #f5f5ff;
+    background: #B30C25;
     transition: ease-in-out 0.3s;
   }
   
@@ -908,7 +908,7 @@ body {
   }
   
   .features .icon-box:hover {
-    background: #ebebff;
+    background: #B30C25;
   }
   
   /*--------------------------------------------------------------
