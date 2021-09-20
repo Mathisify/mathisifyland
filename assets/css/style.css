@@ -65,7 +65,170 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }
+.partners {
+  background-color: #BA002F;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 200px;
+  position: relative; }
+  @media only screen and (max-width: 768px) {
+    .partners {
+      padding-bottom: 100px; } }
+  .partners-top {
+    width: 100%;
+    padding: 0 12vw;
+    display: flex;
+    margin: 0 auto;
+    z-index: 1; }
+    @media only screen and (max-width: 1200px) {
+      .partners-top {
+        max-width: 100%;
+        padding: 0 6vw; } }
+    @media only screen and (max-width: 992px) {
+      .partners-top {
+        margin-bottom: 20px; } }
+    @media only screen and (max-width: 768px) {
+      .partners-top {
+        flex-direction: column; } }
+    .partners-top-left {
+      width: 60%; }
+      @media only screen and (max-width: 768px) {
+        .partners-top-left {
+          width: auto; } }
+    .partners-top-right {
+      width: 40%;
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column; }
+      @media only screen and (max-width: 768px) {
+        .partners-top-right {
+          width: auto;
+          align-items: flex-start;
+          padding-top: 30px; } }
+  .partners-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 12vw;
+    margin-bottom: 20px;
+    z-index: 1; }
+    @media only screen and (max-width: 1200px) {
+      .partners-list {
+        max-width: 100%;
+        padding: 0 6vw; } }
+    @media only screen and (max-width: 992px) {
+      .partners-list h4 {
+        margin-top: 20px; } }
+    .partners-list ul {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      margin-right: -20px; }
+      .partners-list ul li {
+        width: 33.3%;
+        margin-bottom: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        position: relative; }
+        .partners-list ul li:after {
+          position: absolute;
+          bottom: 99%;
+          right: 30px;
+          width: 60px;
+          height: 100px;
+          display: none;
+          animation: fadeIn 250ms ease-out;
+          z-index: -1; }
+        .partners-list ul li:hover:after {
+          display: block; }
+        @media only screen and (max-width: 992px) {
+          .partners-list ul li {
+            width: 50%; } }
+        .partners-list ul li a img {
+          width: 100%;
+          border-radius: 5px; }
+  
+  .partners .element {
+    position: absolute;
+    z-index: 0; }
+    @media only screen and (max-width: 768px) {
+      .partners .element-1 {
+        max-width: 400px; } }
+    @media only screen and (max-width: 576px) {
+      .partners .element-1 {
+        max-width: 300px; } }
+    .partners .element-2 {
+      top: 0;
+      width: 100%; }
+    .partners .element-3 {
+      bottom: 0;
+      width: 100%; }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+  
+  .section-sponsor-full {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      background-color: #B30C25;  
+      }
+  
+  
+  .section-sponsor-full h1 {
+      color: var(--text-dark);
+      font-size: 48px;
+  }
+  
+  .section-sponsor-full .partner-category {
+      margin-top: 6rem;
+  }
+  
+  .section-sponsor-full .items-container {
+      margin: 1rem 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  
+  .section-sponsor-full .items-container img {
+      max-height: 5rem;
+      max-width: 40%;
+      margin: 1rem 0.5rem;
+  }
+  
+
+  
+  
+  .section-sponsor-full a {
+      text-decoration: underline;
+      color: inherit;
+  }
+  
+  .section-sponsor-full strong {
+      font-size: 25px;
+  }
+  
+  .section-sponsor-full .sponsor-info {
+      margin-top: 70px;
+      text-align: center;
+  }
+  
+  @media screen and (min-width: 960px) {
+      /* half-width cells for larger devices */
+      .section-sponsor-full .items-container img {
+          margin: 1rem 2rem;
+      }
+  }
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1377,9 +1540,100 @@ section {
     padding: 0;
   }
 }
+
+
+
+
+.faq .contactform .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.faq .contactform .error-message br + br {
+  margin-top: 25px;
+}
+
+.faq .contactform .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.faq .contactform .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.faq .contactform .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.faq .contactform input, .faq .contactform textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.faq .contactform input {
+  height: 44px;
+}
+
+.faq .contactform textarea {
+  padding: 10px 12px;
+}
+
+.faq .contactform button[type="submit"] {
+  background: #1acc8d;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.faq .contactform button[type="submit"]:hover {
+  background: #34e5a6;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact .info {
   width: 100%;
   background: #fff;
