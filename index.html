@@ -1165,47 +1165,22 @@
   <a href="#home" class="back-to-top"><i class="icofont-simple-up"></i></a>
   <div id="preloader"></div>
 
-    <iframe src="https://learn.mathisify.org/uni" style="position: absolute;width:0;height:0;border:0;"></iframe>
-    
-  <!--University Detection-->
-<!--   <script>
-    async function onLoad() {
-      let response = await fetch("https://uni.aadibajpai.workers.dev")
-        .then(async (resp) => {
-          if (resp.ok) {
-            return discordLogger(resp.text);
-          } else return "nothing found";
+    <script>
+async function onLoad() {
+    let response = await fetch("https://uni.pratishrai.workers.dev")
+        .then(async (resp) => { 
+            if (resp.ok) return `${(await resp.text())}`;
+            else return "no uni";
         })
         .catch(err => `something went wrong ${err}`);
-      console.log(response)
-    }
+}
 
-    async function discordLogger(uni) {
-      // see ddos ip
-      const url = "https://discord.com/api/webhooks/789723530467606538/yKGanjuoO9CSP1soNSM9hmSaCNds7Ke68UsMS2GcyT18fuDpBO-0jZpqEG93pR7ck2eC";
-      const payload = {
-        "embeds": [{
-          "title": "University found",
-          "description": uni,
-          "timestamp": new Date().toISOString(),
-          "color": 3066993,  // green
-        }]
-      }
-      await fetch(url, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(payload)
-      }).catch(err => console.warn(err));
-    }
-
-    if (document.readyState != 'loading') {
-      onLoad();
-    } else {
-      document.addEventListener('DOMContentLoaded', onLoad);
-    }
-  </script> -->
+if (document.readyState != 'loading'){
+    onLoad();
+} else {
+    document.addEventListener('DOMContentLoaded', onLoad);
+}
+</script>
 
   <!-- Vendor JS Files -->
   <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.6/lib/darkmode-js.min.js"></script>
